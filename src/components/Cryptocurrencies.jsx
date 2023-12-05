@@ -2,7 +2,7 @@ import millify from "millify";
 import { Link } from 'react-router-dom';
 import { Card, Row, Col, Input } from 'antd';
 
-import { useGetCryptosQuery } from "../services/CryptoApi";
+import { useGetCryptosQuery } from "../services/cryptoApi";
 import { useEffect, useState } from "react";
 import Loader from "./Loader";
 

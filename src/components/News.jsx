@@ -1,7 +1,7 @@
-import { Select, Typography, Row, Col, Avatar, Card } from 'antd'
+import { Select, Typography, Row, Col, Card } from 'antd'
 import moment from 'moment';
-import { useGetCryptoNewsQuery } from '../services/CryptoNewsApi';
-import { useGetCryptosQuery } from '../services/CryptoApi';
+import { useGetCryptoNewsQuery } from '../services/cryptoNewsApi';
+import { useGetCryptosQuery } from '../services/cryptoApi';
 import { useState } from 'react';
 import Loader from './Loader';
 

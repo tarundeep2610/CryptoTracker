@@ -5,8 +5,7 @@ import Cryptocurrencies from './Cryptocurrencies';
 import News from './News';
 import Loader from './Loader';
 
-import { useGetCryptosQuery } from '../services/CryptoApi';
-import { useStyleRegister } from 'antd/es/theme/internal';
+import { useGetCryptosQuery } from '../services/cryptoApi';
 
 const { Title } = Typography;
 
